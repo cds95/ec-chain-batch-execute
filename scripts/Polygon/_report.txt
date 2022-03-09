@@ -1,0 +1,559 @@
+Mickys-Mac-Pro:ec-registry micky$ npx hardhat run scripts/Polygon/3.add_trait_data.ts --network matic
+No need to generate any newer typings.
+    Deployer                    0xd25F03bdC4727B43bf09Ace9CF25C5DEA21D1532
+    Polygon ECRegistryV2 address:  0xd4027b9b8942836684cafb1e3c89fa5e92e21409
+    PolygonTraitLength             50
+    Preparing data for Trait:   0
+    setBytes:                   81
+    ignored bytes ( b === 0 ):  819
+    transaction count:          81
+      - bytes in chunk[0]:      350
+      - bytes in chunk[1]:      81
+txn: 1 traitId: 0 chunk 1 of 2
+  - hash:          0xa28810e8d74037a59a2669fe9ef7c01f0a679f83756062eba5ce080d90530941
+  - gas-used:      8189405
+  - gas-estimate:  10493932
+txn: 2 traitId: 0 chunk 2 of 2
+  - hash:          0x5a40b8f10e6509ff4741636cd71b74d37320fdabb1166c138b1daa5011e405ad
+  - gas-used:      1915630
+  - gas-estimate:  2186147
+Mickys-Mac-Pro:ec-registry micky$ npx hardhat run scripts/Polygon/3.add_trait_data.ts --network matic
+No need to generate any newer typings.
+    Deployer                    0xd25F03bdC4727B43bf09Ace9CF25C5DEA21D1532
+    Polygon ECRegistryV2 address:  0xd4027b9b8942836684cafb1e3c89fa5e92e21409
+    PolygonTraitLength             50
+    Preparing data for Trait:   1
+    setBytes:                   64
+    ignored bytes ( b === 0 ):  136
+    transaction count:          64
+      - bytes in chunk[0]:      350
+      - bytes in chunk[1]:      350
+      - bytes in chunk[2]:      350
+      - bytes in chunk[3]:      64
+txn: 1 traitId: 1 chunk 1 of 4
+  - hash:          0xa0e7d4d73dfc2e405ea51dbdbeac3436c407ec2128fb32df63f1816d247e1a25
+  - gas-used:      8187737
+  - gas-estimate:  11028132
+txn: 2 traitId: 1 chunk 2 of 4
+  - hash:          0x6aa660b87dadffb3113914048d8d750b0692959cf582363c800ed47be286b92f
+  - gas-used:      8190617
+  - gas-estimate:  10071010
+txn: 3 traitId: 1 chunk 3 of 4
+  - hash:          0x6ac2e473a3d8882018a561f9c40a7c6720f37c8609b494584f0190cb306070a4
+  - gas-used:      8190629
+  - gas-estimate:  10149309
+txn: 4 traitId: 1 chunk 4 of 4
+  - hash:          0x502e1eede1f89a7d6700cc974258f4fce045931c0ec52f8dc0905d600fce181f
+  - gas-used:      1519095
+  - gas-estimate:  2956907
+    Preparing data for Trait:   2
+    setBytes:                   66
+    ignored bytes ( b === 0 ):  834
+    transaction count:          66
+      - bytes in chunk[0]:      350
+      - bytes in chunk[1]:      66
+txn: 5 traitId: 2 chunk 1 of 2
+  - hash:          0x6173dcee6280b9cc562a6f90402c49d08ec530358b63300210d86e3b3eeb7280
+  - gas-used:      8189585
+  - gas-estimate:  9748049
+txn: 6 traitId: 2 chunk 2 of 2
+  - hash:          0x2a94702e70b3db5432f6bc3a0a83a48d56502072381878a9ac75d10882993dd8
+  - gas-used:      1565749
+  - gas-estimate:  1995354
+    Preparing data for Trait:   3
+    setBytes:                   2
+    ignored bytes ( b === 0 ):  548
+    transaction count:          2
+      - bytes in chunk[0]:      350
+      - bytes in chunk[1]:      350
+      - bytes in chunk[2]:      2
+txn: 7 traitId: 3 chunk 1 of 3
+  - hash:          0x27cbc3df3d213bef5e7c3eaf4c30ca987dce0cf8cf95ff4887e0b40275d1c242
+  - gas-used:      8188613
+  - gas-estimate:  11111755
+txn: 8 traitId: 3 chunk 2 of 3
+  - hash:          0xb56c08ec7e839152732c055ad37ff5786b5834869531c2d3f50e18b5cf0f9f80
+  - gas-used:      8190617
+  - gas-estimate:  8931032
+txn: 9 traitId: 3 chunk 3 of 3
+  - hash:          0x051fc22fcb07669eb6e2b68742e123aa9c8621783b10a56a6fef6888a1b98e78
+  - gas-used:      72809
+  - gas-estimate:  263958
+    Preparing data for Trait:   4
+    setBytes:                   10
+    ignored bytes ( b === 0 ):  1240
+    transaction count:          10
+      - bytes in chunk[0]:      10
+txn: 10 traitId: 4 chunk 1 of 1
+  - hash:          0x5cd05bd060adccb75a5b33aa16e829ff3654c52735e3038044ef226a6b7434a9
+  - gas-used:      259377
+  - gas-estimate:  1591865
+    Preparing data for Trait:   5
+    setBytes:                   33
+    ignored bytes ( b === 0 ):  1217
+    transaction count:          33
+      - bytes in chunk[0]:      33
+txn: 11 traitId: 5 chunk 1 of 1
+  - hash:          0x02f1cfb6c4d3fea550b4c37e5f1274784c552e02f4cdda376b249a3eca7e25c5
+  - gas-used:      795958
+  - gas-estimate:  2920419
+    Preparing data for Trait:   6
+    setBytes:                   3
+    ignored bytes ( b === 0 ):  1247
+    transaction count:          3
+      - bytes in chunk[0]:      3
+txn: 12 traitId: 6 chunk 1 of 1
+  - hash:          0x3983230391914778881d9af08d212a961ad380b422e389b49ed5120fe6e86334
+  - gas-used:      96136
+  - gas-estimate:  1628352
+    Preparing data for Trait:   7
+    setBytes:                   53
+    ignored bytes ( b === 0 ):  147
+    transaction count:          53
+      - bytes in chunk[0]:      350
+      - bytes in chunk[1]:      350
+      - bytes in chunk[2]:      350
+      - bytes in chunk[3]:      53
+txn: 13 traitId: 7 chunk 1 of 4
+  - hash:          0xb8fc0cb81080fa73df1729c089c41d1c793138b6c4a9afcddf3ace013dd385a9
+  - gas-used:      8187749
+  - gas-estimate:  8706106
+txn: 14 traitId: 7 chunk 2 of 4
+  - hash:          0x18b493e794896166e1aedfaa652b35c06f3c631e3f0aa964dfe05dba049f222d
+  - gas-used:      8190617
+  - gas-estimate:  9503352
+txn: 15 traitId: 7 chunk 3 of 4
+  - hash:          0xb9880c1cda43debf5f6822a39ced10e945ebe95caa54eb4a3b4958baa689dfbc
+  - gas-used:      8190629
+  - gas-estimate:  13378093
+txn: 16 traitId: 7 chunk 4 of 4
+  - hash:          0x1f68066645fea707979b801309cc56b4f34dc45922e1a116a12cbfcb8e509bc4
+  - gas-used:      1262498
+  - gas-estimate:  3872845
+    Preparing data for Trait:   8
+    setBytes:                   329
+    ignored bytes ( b === 0 ):  221
+    transaction count:          329
+      - bytes in chunk[0]:      350
+      - bytes in chunk[1]:      350
+      - bytes in chunk[2]:      329
+txn: 17 traitId: 8 chunk 1 of 3
+  - hash:          0xe6632f3c2d26dc9c57115b530e480d77738cdc8a8430d4fe998302c67682d04b
+  - gas-used:      8187809
+  - gas-estimate:  13089916
+txn: 18 traitId: 8 chunk 2 of 3
+  - hash:          0xf0209c73d0493e62da2e3414e58b13f0534734176626d538a72d0bdd88924af5
+  - gas-used:      8190629
+  - gas-estimate:  18173726
+txn: 19 traitId: 8 chunk 3 of 3
+  - hash:          0x8481393f64c7d367834eb2e0d34e3b3d102ecbfcb9d5198169f8da0231a9ac13
+  - gas-used:      7700762
+  - gas-estimate:  11207943
+    Preparing data for Trait:   9
+    setBytes:                   0
+    ignored bytes ( b === 0 ):  1250
+    transaction count:          0
+    Preparing data for Trait:   10
+    setBytes:                   168
+    ignored bytes ( b === 0 ):  382
+    transaction count:          168
+      - bytes in chunk[0]:      350
+      - bytes in chunk[1]:      350
+      - bytes in chunk[2]:      168
+txn: 20 traitId: 10 chunk 1 of 3
+  - hash:          0xe2b60139662a79aa924e9944521ceef91dc54735c0b22618f628c62e898e9a3b
+  - gas-used:      8188205
+  - gas-estimate:  12111343
+txn: 21 traitId: 10 chunk 2 of 3
+  - hash:          0x9dfebe7580ca1986fd6bdcca4b9314ad20a50e9fc66582b573d3e31c48910911
+  - gas-used:      8190617
+  - gas-estimate:  12563964
+txn: 22 traitId: 10 chunk 3 of 3
+  - hash:          0xea8e0ba86546b1aae504ab582ffa1fdaf1a0644489a70a33410ed3292665bd66
+  - gas-used:      3945091
+  - gas-estimate:  20688375
+    Preparing data for Trait:   11
+    setBytes:                   63
+    ignored bytes ( b === 0 ):  837
+    transaction count:          63
+      - bytes in chunk[0]:      350
+      - bytes in chunk[1]:      63
+txn: 23 traitId: 11 chunk 1 of 2
+  - hash:          0xa9f239ff666da41900e1069fd634d92908ecad776d74efca3fe49f38ff76f538
+  - gas-used:      8190101
+  - gas-estimate:  10423459
+txn: 24 traitId: 11 chunk 2 of 2
+  - hash:          0x7d2a4bf8f66acf758140fb4464d9c2fcdb1bfaf957e8b480453b916c32e13d8f
+  - gas-used:      1495768
+  - gas-estimate:  2132189
+    Preparing data for Trait:   12
+    setBytes:                   67
+    ignored bytes ( b === 0 ):  833
+    transaction count:          67
+      - bytes in chunk[0]:      350
+      - bytes in chunk[1]:      67
+txn: 25 traitId: 12 chunk 1 of 2
+  - hash:          0x1cb8c64656b7d880f051db6c1e4582fab01c3594452177cbbf45e63d966b6a7f
+  - gas-used:      8189429
+  - gas-estimate:  8965943
+txn: 26 traitId: 12 chunk 2 of 2
+  - hash:          0x01c4711990048d2d5805d4493a7a52f2d172132047ee146ddd54585d1362002c
+  - gas-used:      1589076
+  - gas-estimate:  3549944
+    Preparing data for Trait:   13
+    setBytes:                   217
+    ignored bytes ( b === 0 ):  333
+    transaction count:          217
+      - bytes in chunk[0]:      350
+      - bytes in chunk[1]:      350
+      - bytes in chunk[2]:      217
+txn: 27 traitId: 13 chunk 1 of 3
+  - hash:          0x59486b5ea23b269d56de39337b3c3622c52ab9eed23b9eff8d1e3b57d026ccdf
+  - gas-used:      8188049
+  - gas-estimate:  9245963
+txn: 28 traitId: 13 chunk 2 of 3
+  - hash:          0x346362872d24720489a3639ee5b6fc0d4e79ca2e6bd08f5abed48c57722d3f07
+  - gas-used:      8190629
+  - gas-estimate:  9104379
+txn: 29 traitId: 13 chunk 3 of 3
+  - hash:          0x93e888400f10c06db04643f1fae681b2390547f848d29e3108869f544918aeb3
+  - gas-used:      5088126
+  - gas-estimate:  6962545
+    Preparing data for Trait:   14
+    setBytes:                   30
+    ignored bytes ( b === 0 ):  1220
+    transaction count:          30
+      - bytes in chunk[0]:      30
+txn: 30 traitId: 14 chunk 1 of 1
+  - hash:          0x5179917baee615d203cc914983c4de2c9f99f04ec46fdbb01ab11067ada1230f
+  - gas-used:      725893
+  - gas-estimate:  1857339
+    Preparing data for Trait:   15
+    setBytes:                   300
+    ignored bytes ( b === 0 ):  600
+    transaction count:          300
+      - bytes in chunk[0]:      350
+      - bytes in chunk[1]:      300
+txn: 31 traitId: 15 chunk 1 of 2
+  - hash:          0x905ba10e26d101821c67de18cc961d5faa8085e3dfbb66c57abfa22d19ff79fd
+  - gas-used:      8188649
+  - gas-estimate:  8555006
+txn: 32 traitId: 15 chunk 2 of 2
+  - hash:          0x060952d372090f03bee28c7a4ef8841489b559d16c4e983552879fe081893264
+  - gas-used:      7024267
+  - gas-estimate:  9844004
+    Preparing data for Trait:   16
+    setBytes:                   46
+    ignored bytes ( b === 0 ):  1204
+    transaction count:          46
+      - bytes in chunk[0]:      46
+txn: 33 traitId: 16 chunk 1 of 1
+  - hash:          0x1c920c190167b9cd6fc01bfdbfda8bd946354b25089608e23a674930b8aa9c7a
+  - gas-used:      1099089
+  - gas-estimate:  3654388
+    Preparing data for Trait:   17
+    setBytes:                   25
+    ignored bytes ( b === 0 ):  1225
+    transaction count:          25
+      - bytes in chunk[0]:      25
+txn: 34 traitId: 17 chunk 1 of 1
+  - hash:          0xb44b88f234a395781db772cae6f604a76f9cda7fca53ec20b1d9163523a83af0
+  - gas-used:      609246
+  - gas-estimate:  3395853
+    Preparing data for Trait:   18
+    setBytes:                   69
+    ignored bytes ( b === 0 ):  1181
+    transaction count:          69
+      - bytes in chunk[0]:      69
+txn: 35 traitId: 18 chunk 1 of 1
+  - hash:          0x7aea602449febfd551af38d7bf4c356647f1b52edc0dd998033f04c5170466f2
+  - gas-used:      1635634
+  - gas-estimate:  2358884
+    Preparing data for Trait:   19
+    setBytes:                   269
+    ignored bytes ( b === 0 ):  981
+    transaction count:          269
+      - bytes in chunk[0]:      269
+txn: 36 traitId: 19 chunk 1 of 1
+  - hash:          0x6282673f3078c139408a9ce5538bfb922dbd9c80ba1544c16436d56f7e41b3c5
+  - gas-used:      6300170
+  - gas-estimate:  8001972
+    Preparing data for Trait:   20
+    setBytes:                   303
+    ignored bytes ( b === 0 ):  597
+    transaction count:          303
+      - bytes in chunk[0]:      350
+      - bytes in chunk[1]:      303
+txn: 37 traitId: 20 chunk 1 of 2
+  - hash:          0xa5f6b83ce611ab7608e5aa70f704ef9158e51d3233f1ca903abdd33b45cbcfaf
+  - gas-used:      8188601
+  - gas-estimate:  8755060
+txn: 38 traitId: 20 chunk 2 of 2
+  - hash:          0x14192e207e9771cda30d89911169fddb246a02331c223ff98e81e47784b2ab51
+  - gas-used:      7094260
+  - gas-estimate:  8399816
+    Preparing data for Trait:   21
+    setBytes:                   5
+    ignored bytes ( b === 0 ):  1245
+    transaction count:          5
+      - bytes in chunk[0]:      5
+txn: 39 traitId: 21 chunk 1 of 1
+  - hash:          0x0926af75e8aeb4d2237f45cce6158a6fcec8598ffa5d706617dc2e583c242d1f
+  - gas-used:      142802
+  - gas-estimate:  2618487
+    Preparing data for Trait:   22
+    setBytes:                   307
+    ignored bytes ( b === 0 ):  943
+    transaction count:          307
+      - bytes in chunk[0]:      307
+txn: 40 traitId: 22 chunk 1 of 1
+  - hash:          0x77656e58dc1460907601d235a9c1acb993e16f705383613487cc4863e09bf770
+  - gas-used:      7186596
+  - gas-estimate:  12963217
+    Preparing data for Trait:   23
+    setBytes:                   98
+    ignored bytes ( b === 0 ):  1152
+    transaction count:          98
+      - bytes in chunk[0]:      98
+txn: 41 traitId: 23 chunk 1 of 1
+  - hash:          0x5187336cb303c3368e46ca25b08ce5a3d03f5cc965a157692e70c2b92df3ab21
+  - gas-used:      2311781
+  - gas-estimate:  10553985
+    Preparing data for Trait:   24
+    setBytes:                   35
+    ignored bytes ( b === 0 ):  1215
+    transaction count:          35
+      - bytes in chunk[0]:      35
+txn: 42 traitId: 24 chunk 1 of 1
+  - hash:          0x58fd82c866226e5971af2068260097196c5ef161b6e9eb58c29d157233047a42
+  - gas-used:      842492
+  - gas-estimate:  5549026
+    Preparing data for Trait:   25
+    setBytes:                   79
+    ignored bytes ( b === 0 ):  471
+    transaction count:          79
+      - bytes in chunk[0]:      350
+      - bytes in chunk[1]:      350
+      - bytes in chunk[2]:      79
+txn: 43 traitId: 25 chunk 1 of 3
+  - hash:          0x87036ca8fdf15e58fdde844501467c486eef3342806cefffc58029805fde94ca
+  - gas-used:      8188529
+  - gas-estimate:  10500967
+txn: 44 traitId: 25 chunk 2 of 3
+  - hash:          0x5fdce645cb6b6b92df2c08c73c180ff6af1dd69a3f5b30b67f33022ce67234e5
+  - gas-used:      8190617
+  - gas-estimate:  10569624
+txn: 45 traitId: 25 chunk 3 of 3
+  - hash:          0xfd150d1cdfddd6d95593e78cd6f3f58886b465b3c40f3c1943261fae90986764
+  - gas-used:      1869000
+  - gas-estimate:  2460161
+    Preparing data for Trait:   26
+    setBytes:                   84
+    ignored bytes ( b === 0 ):  1166
+    transaction count:          84
+      - bytes in chunk[0]:      84
+txn: 46 traitId: 26 chunk 1 of 1
+  - hash:          0x58f65b5e3a7351b381df62640fb7d6f358c99c411953d075807fcaa6dd6685dd
+  - gas-used:      1985299
+  - gas-estimate:  5100398
+    Preparing data for Trait:   27
+    setBytes:                   305
+    ignored bytes ( b === 0 ):  945
+    transaction count:          305
+      - bytes in chunk[0]:      305
+txn: 47 traitId: 27 chunk 1 of 1
+  - hash:          0x057edc7561cf989de9beb8f53f47491dd07f4535529d3115cd6c20ce295049bd
+  - gas-used:      7139978
+  - gas-estimate:  9699679
+    Preparing data for Trait:   28
+    setBytes:                   34
+    ignored bytes ( b === 0 ):  1216
+    transaction count:          34
+      - bytes in chunk[0]:      34
+txn: 48 traitId: 28 chunk 1 of 1
+  - hash:          0x0900e08c5c877c5f63b4546ae9fbf8b27594e8e5f5178c6b6e79b6b9b084a50e
+  - gas-used:      819201
+  - gas-estimate:  2392037
+    Preparing data for Trait:   29
+    setBytes:                   20
+    ignored bytes ( b === 0 ):  1230
+    transaction count:          20
+      - bytes in chunk[0]:      20
+txn: 49 traitId: 29 chunk 1 of 1
+  - hash:          0x01c3848644abe61046faed37522545d2857c732ce2c7ac6319d347dcd7e80b0b
+  - gas-used:      492455
+  - gas-estimate:  4683521
+Mickys-Mac-Pro:ec-registry micky$ npx hardhat run scripts/Polygon/3.add_trait_data.ts --network matic
+No need to generate any newer typings.
+    Deployer                    0xd25F03bdC4727B43bf09Ace9CF25C5DEA21D1532
+    Polygon ECRegistryV2 address:  0xd4027b9b8942836684cafb1e3c89fa5e92e21409
+    PolygonTraitLength             50
+    Preparing data for Trait:   30
+    setBytes:                   0
+    ignored bytes ( b === 0 ):  1250
+    transaction count:          0
+    Preparing data for Trait:   31
+    setBytes:                   0
+    ignored bytes ( b === 0 ):  1250
+    transaction count:          0
+    Preparing data for Trait:   32
+    setBytes:                   0
+    ignored bytes ( b === 0 ):  1250
+    transaction count:          0
+    Preparing data for Trait:   33
+    setBytes:                   0
+    ignored bytes ( b === 0 ):  1250
+    transaction count:          0
+    Preparing data for Trait:   34
+    setBytes:                   0
+    ignored bytes ( b === 0 ):  1250
+    transaction count:          0
+    Preparing data for Trait:   35
+    setBytes:                   0
+    ignored bytes ( b === 0 ):  1250
+    transaction count:          0
+    Preparing data for Trait:   36
+    setBytes:                   0
+    ignored bytes ( b === 0 ):  1250
+    transaction count:          0
+    Preparing data for Trait:   37
+    setBytes:                   45
+    ignored bytes ( b === 0 ):  1205
+    transaction count:          45
+      - bytes in chunk[0]:      45
+txn: 1 traitId: 37 chunk 1 of 1
+  - hash:          0xd2da17a1257d5e67037f8a6450360712b3830f77409b88f3f983b18ea1fd6d78
+  - gas-used:      1075342
+  - gas-estimate:  2198115
+    Preparing data for Trait:   38
+    setBytes:                   45
+    ignored bytes ( b === 0 ):  1205
+    transaction count:          45
+      - bytes in chunk[0]:      45
+txn: 2 traitId: 38 chunk 1 of 1
+  - hash:          0x09b6f18090c50ea3563d8b684169382e788f70b1b374f78484b9ad9d5a609ef0
+  - gas-used:      1075342
+  - gas-estimate:  3500485
+    Preparing data for Trait:   39
+    setBytes:                   0
+    ignored bytes ( b === 0 ):  1250
+    transaction count:          0
+    Preparing data for Trait:   40
+    setBytes:                   0
+    ignored bytes ( b === 0 ):  1250
+    transaction count:          0
+    Preparing data for Trait:   41
+    setBytes:                   0
+    ignored bytes ( b === 0 ):  1250
+    transaction count:          0
+    Preparing data for Trait:   42
+    setBytes:                   63
+    ignored bytes ( b === 0 ):  1187
+    transaction count:          63
+      - bytes in chunk[0]:      63
+txn: 3 traitId: 42 chunk 1 of 1
+  - hash:          0x6bafeb9eb2b8b437cc1dfa8202eeec615142817ea26101fcf0a7b8ddd4cf8772
+  - gas-used:      1495456
+  - gas-estimate:  2932066
+    Preparing data for Trait:   43
+    setBytes:                   0
+    ignored bytes ( b === 0 ):  1250
+    transaction count:          0
+    Preparing data for Trait:   44
+    setBytes:                   4
+    ignored bytes ( b === 0 ):  1246
+    transaction count:          4
+      - bytes in chunk[0]:      4
+txn: 4 traitId: 44 chunk 1 of 1
+  - hash:          0x6d26e4fc5f5b3bb83acbd2f3f8cf1dc51135d738dfc65fafbeb03a950e474bf2
+  - gas-used:      119439
+  - gas-estimate:  729675
+    Preparing data for Trait:   45
+    setBytes:                   0
+    ignored bytes ( b === 0 ):  1250
+    transaction count:          0
+    Preparing data for Trait:   46
+    setBytes:                   0
+    ignored bytes ( b === 0 ):  1250
+    transaction count:          0
+    Preparing data for Trait:   47
+    setBytes:                   0
+    ignored bytes ( b === 0 ):  1250
+    transaction count:          0
+    Preparing data for Trait:   48
+    setBytes:                   99
+    ignored bytes ( b === 0 ):  1151
+    transaction count:          99
+      - bytes in chunk[0]:      99
+txn: 5 traitId: 48 chunk 1 of 1
+  - hash:          0x3f619e0b9a5fa13a1f8785e13f5ab81916aa684408054c560f20d70e75a8a571
+  - gas-used:      2335204
+  - gas-estimate:  2927598
+    Preparing data for Trait:   49
+    setBytes:                   44
+    ignored bytes ( b === 0 ):  1206
+    transaction count:          44
+      - bytes in chunk[0]:      44
+txn: 6 traitId: 49 chunk 1 of 1
+  - hash:          0x3fedcd843e6f475dbaf08466c87a0e3cbab794ddf629f5f41c92f81e00aac8b0
+  - gas-used:      1052375
+  - gas-estimate:  1677739
+
+
+
+
+Mickys-Mac-Pro:ec-registry micky$ npx hardhat run scripts/Polygon/validate_traits.ts
+No need to generate any newer typings.
+    Mainnet ECRegistryV2 address:  0x4fcb9b38cac63957c8877667b0adb9207c890a13
+    Polygon ECRegistryV2 address:  0xd4027b9b8942836684cafb1e3c89fa5e92e21409
+    - traitCount matches        true
+    - traitData[0] matches         true
+    - traitData[1] matches         true
+    - traitData[2] matches         true
+    - traitData[3] matches         true
+    - traitData[4] matches         true
+    - traitData[5] matches         true
+    - traitData[6] matches         true
+    - traitData[7] matches         true
+    - traitData[8] matches         true
+    - traitData[9] matches         true
+    - traitData[10] matches         true
+    - traitData[11] matches         true
+    - traitData[12] matches         true
+    - traitData[13] matches         true
+    - traitData[14] matches         true
+    - traitData[15] matches         true
+    - traitData[16] matches         true
+    - traitData[17] matches         true
+    - traitData[18] matches         true
+    - traitData[19] matches         true
+    - traitData[20] matches         true
+    - traitData[21] matches         true
+    - traitData[22] matches         true
+    - traitData[23] matches         true
+    - traitData[24] matches         true
+    - traitData[25] matches         true
+    - traitData[26] matches         true
+    - traitData[27] matches         true
+    - traitData[28] matches         true
+    - traitData[29] matches         true
+    - traitData[30] matches         true
+    - traitData[31] matches         true
+    - traitData[32] matches         true
+    - traitData[33] matches         true
+    - traitData[34] matches         true
+    - traitData[35] matches         true
+    - traitData[36] matches         true
+    - traitData[37] matches         true
+    - traitData[38] matches         true
+    - traitData[39] matches         true
+    - traitData[40] matches         true
+    - traitData[41] matches         true
+    - traitData[42] matches         true
+    - traitData[43] matches         true
+    - traitData[44] matches         true
+    - traitData[45] matches         true
+    - traitData[46] matches         true
+    - traitData[47] matches         true
+    - traitData[48] matches         true
+    - traitData[49] matches         true
