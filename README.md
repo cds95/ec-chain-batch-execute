@@ -15,7 +15,7 @@
       name - "LeBron James"
       Any trait will store data for this player at position 1.
         - for trait type == 0, a boolean using ECRegistryV3.setData(traitId, _positionIds, _values);
-        - for trait type == 3, a uint8 using implementer.setData(traitId[], _positionIds, _values);
+        - for trait type == 3, a uint8 using implementer.setData(_positionIds[], _values[]);
     
     Flow:
     0. receive data request
