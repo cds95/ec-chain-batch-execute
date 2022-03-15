@@ -21,9 +21,13 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.ChainBatchWriteAdapter__factory>;
     getContractFactory(
-      name: "ECRegistryV2",
+      name: "ECRegistryMap",
       signerOrOptions?: ethers.Signer | FactoryOptions
-    ): Promise<Contracts.ECRegistryV2__factory>;
+    ): Promise<Contracts.ECRegistryMap__factory>;
+    getContractFactory(
+      name: "ECRegistryV3",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.ECRegistryV3__factory>;
     getContractFactory(
       name: "TraitUint8ValueImplementer",
       signerOrOptions?: ethers.Signer | FactoryOptions

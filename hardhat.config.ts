@@ -36,7 +36,7 @@ task(
 // const gasPrice =  50000000000; // 50 GWEI
 // const gasPrice =  50000000001; // 50 GWEI
 // const gasPrice = 150000000000; // 150 GWEI
-const gasPrice    = 100000000000; // 50 GWEI
+const gasPrice    =  30000000001; // 50 GWEI
 
 // const gasLimit = 12450000; // mainnet
 const gasLimit = 9500000;  // rinkeby
@@ -79,6 +79,12 @@ module.exports = {
       chainId: 137,
       gasPrice: gasPrice
     },  
+    polygonMumbai: {
+      url: `https://polygon-mumbai.infura.io/v3/1fc164b9a9054e4bab0f54e3d8d312b8`,
+      accounts: [OWNER_PRIVATE_KEY],
+      chainId: 80001,
+      gasPrice: gasPrice
+    },  
     rinkeby: {
       // url: `https://rinkeby.infura.io/v3/${INFURA_ID}`,
       url: `https://rinkeby.nowlive.ro/`,
@@ -99,8 +105,14 @@ module.exports = {
     // url: "https://api-rinkeby.etherscan.io/",
     // url: "https://api.etherscan.io/",
     // apiKey: ETHERSCAN_API_KEY,
-    url: "https://api.polygonscan.io/",
-    apiKey: POLYGONSCAN_API_KEY
+    // url: "https://api.polygonscan.io/", 
+    // url: "https://mumbai.polygonscan.com/", 
+    // apiKey: POLYGONSCAN_API_KEY
+    apiKey: {
+      mainnet: "YOUR_ETHERSCAN_API_KEY",
+      rinkeby: "YOUR_ETHERSCAN_API_KEY",
+      polygonMumbai: POLYGONSCAN_API_KEY,
+    }
   },
   solidity: {
     version: "0.8.7",

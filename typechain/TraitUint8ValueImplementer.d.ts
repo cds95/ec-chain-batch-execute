@@ -22,10 +22,10 @@ import { TypedEventFilter, TypedEvent, TypedListener } from "./commons";
 interface TraitUint8ValueImplementerInterface extends ethers.utils.Interface {
   functions: {
     "ECRegistry()": FunctionFragment;
-    "data(uint16)": FunctionFragment;
     "getValue(uint16)": FunctionFragment;
+    "getValues(uint16,uint16)": FunctionFragment;
+    "implementerType()": FunctionFragment;
     "setData(uint16[],uint8[])": FunctionFragment;
-    "setData2(uint16[],uint8[])": FunctionFragment;
     "setValue(uint16,uint8)": FunctionFragment;
     "traitId()": FunctionFragment;
   };
@@ -34,17 +34,20 @@ interface TraitUint8ValueImplementerInterface extends ethers.utils.Interface {
     functionFragment: "ECRegistry",
     values?: undefined
   ): string;
-  encodeFunctionData(functionFragment: "data", values: [BigNumberish]): string;
   encodeFunctionData(
     functionFragment: "getValue",
     values: [BigNumberish]
   ): string;
   encodeFunctionData(
-    functionFragment: "setData",
-    values: [BigNumberish[], BigNumberish[]]
+    functionFragment: "getValues",
+    values: [BigNumberish, BigNumberish]
   ): string;
   encodeFunctionData(
-    functionFragment: "setData2",
+    functionFragment: "implementerType",
+    values?: undefined
+  ): string;
+  encodeFunctionData(
+    functionFragment: "setData",
     values: [BigNumberish[], BigNumberish[]]
   ): string;
   encodeFunctionData(
@@ -54,10 +57,13 @@ interface TraitUint8ValueImplementerInterface extends ethers.utils.Interface {
   encodeFunctionData(functionFragment: "traitId", values?: undefined): string;
 
   decodeFunctionResult(functionFragment: "ECRegistry", data: BytesLike): Result;
-  decodeFunctionResult(functionFragment: "data", data: BytesLike): Result;
   decodeFunctionResult(functionFragment: "getValue", data: BytesLike): Result;
+  decodeFunctionResult(functionFragment: "getValues", data: BytesLike): Result;
+  decodeFunctionResult(
+    functionFragment: "implementerType",
+    data: BytesLike
+  ): Result;
   decodeFunctionResult(functionFragment: "setData", data: BytesLike): Result;
-  decodeFunctionResult(functionFragment: "setData2", data: BytesLike): Result;
   decodeFunctionResult(functionFragment: "setValue", data: BytesLike): Result;
   decodeFunctionResult(functionFragment: "traitId", data: BytesLike): Result;
 
@@ -114,20 +120,25 @@ export class TraitUint8ValueImplementer extends BaseContract {
   functions: {
     ECRegistry(overrides?: CallOverrides): Promise<[string]>;
 
-    data(arg0: BigNumberish, overrides?: CallOverrides): Promise<[number]>;
-
     getValue(
       _tokenId: BigNumberish,
       overrides?: CallOverrides
     ): Promise<[number]>;
 
-    setData(
-      _tokenIds: BigNumberish[],
-      _value: BigNumberish[],
-      overrides?: Overrides & { from?: string | Promise<string> }
-    ): Promise<ContractTransaction>;
+    "getValues(uint16,uint16)"(
+      _start: BigNumberish,
+      _len: BigNumberish,
+      overrides?: CallOverrides
+    ): Promise<[number[]]>;
 
-    setData2(
+    "getValues(uint16[])"(
+      _tokenIds: BigNumberish[],
+      overrides?: CallOverrides
+    ): Promise<[number[]]>;
+
+    implementerType(overrides?: CallOverrides): Promise<[number]>;
+
+    setData(
       _tokenIds: BigNumberish[],
       _value: BigNumberish[],
       overrides?: Overrides & { from?: string | Promise<string> }
@@ -144,17 +155,22 @@ export class TraitUint8ValueImplementer extends BaseContract {
 
   ECRegistry(overrides?: CallOverrides): Promise<string>;
 
-  data(arg0: BigNumberish, overrides?: CallOverrides): Promise<number>;
-
   getValue(_tokenId: BigNumberish, overrides?: CallOverrides): Promise<number>;
 
-  setData(
-    _tokenIds: BigNumberish[],
-    _value: BigNumberish[],
-    overrides?: Overrides & { from?: string | Promise<string> }
-  ): Promise<ContractTransaction>;
+  "getValues(uint16,uint16)"(
+    _start: BigNumberish,
+    _len: BigNumberish,
+    overrides?: CallOverrides
+  ): Promise<number[]>;
 
-  setData2(
+  "getValues(uint16[])"(
+    _tokenIds: BigNumberish[],
+    overrides?: CallOverrides
+  ): Promise<number[]>;
+
+  implementerType(overrides?: CallOverrides): Promise<number>;
+
+  setData(
     _tokenIds: BigNumberish[],
     _value: BigNumberish[],
     overrides?: Overrides & { from?: string | Promise<string> }
@@ -171,20 +187,25 @@ export class TraitUint8ValueImplementer extends BaseContract {
   callStatic: {
     ECRegistry(overrides?: CallOverrides): Promise<string>;
 
-    data(arg0: BigNumberish, overrides?: CallOverrides): Promise<number>;
-
     getValue(
       _tokenId: BigNumberish,
       overrides?: CallOverrides
     ): Promise<number>;
 
-    setData(
-      _tokenIds: BigNumberish[],
-      _value: BigNumberish[],
+    "getValues(uint16,uint16)"(
+      _start: BigNumberish,
+      _len: BigNumberish,
       overrides?: CallOverrides
-    ): Promise<void>;
+    ): Promise<number[]>;
 
-    setData2(
+    "getValues(uint16[])"(
+      _tokenIds: BigNumberish[],
+      overrides?: CallOverrides
+    ): Promise<number[]>;
+
+    implementerType(overrides?: CallOverrides): Promise<number>;
+
+    setData(
       _tokenIds: BigNumberish[],
       _value: BigNumberish[],
       overrides?: CallOverrides
@@ -212,20 +233,25 @@ export class TraitUint8ValueImplementer extends BaseContract {
   estimateGas: {
     ECRegistry(overrides?: CallOverrides): Promise<BigNumber>;
 
-    data(arg0: BigNumberish, overrides?: CallOverrides): Promise<BigNumber>;
-
     getValue(
       _tokenId: BigNumberish,
       overrides?: CallOverrides
     ): Promise<BigNumber>;
 
-    setData(
-      _tokenIds: BigNumberish[],
-      _value: BigNumberish[],
-      overrides?: Overrides & { from?: string | Promise<string> }
+    "getValues(uint16,uint16)"(
+      _start: BigNumberish,
+      _len: BigNumberish,
+      overrides?: CallOverrides
     ): Promise<BigNumber>;
 
-    setData2(
+    "getValues(uint16[])"(
+      _tokenIds: BigNumberish[],
+      overrides?: CallOverrides
+    ): Promise<BigNumber>;
+
+    implementerType(overrides?: CallOverrides): Promise<BigNumber>;
+
+    setData(
       _tokenIds: BigNumberish[],
       _value: BigNumberish[],
       overrides?: Overrides & { from?: string | Promise<string> }
@@ -243,23 +269,25 @@ export class TraitUint8ValueImplementer extends BaseContract {
   populateTransaction: {
     ECRegistry(overrides?: CallOverrides): Promise<PopulatedTransaction>;
 
-    data(
-      arg0: BigNumberish,
-      overrides?: CallOverrides
-    ): Promise<PopulatedTransaction>;
-
     getValue(
       _tokenId: BigNumberish,
       overrides?: CallOverrides
     ): Promise<PopulatedTransaction>;
 
-    setData(
-      _tokenIds: BigNumberish[],
-      _value: BigNumberish[],
-      overrides?: Overrides & { from?: string | Promise<string> }
+    "getValues(uint16,uint16)"(
+      _start: BigNumberish,
+      _len: BigNumberish,
+      overrides?: CallOverrides
     ): Promise<PopulatedTransaction>;
 
-    setData2(
+    "getValues(uint16[])"(
+      _tokenIds: BigNumberish[],
+      overrides?: CallOverrides
+    ): Promise<PopulatedTransaction>;
+
+    implementerType(overrides?: CallOverrides): Promise<PopulatedTransaction>;
+
+    setData(
       _tokenIds: BigNumberish[],
       _value: BigNumberish[],
       overrides?: Overrides & { from?: string | Promise<string> }

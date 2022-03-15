@@ -1,0 +1,1892 @@
+[
+ {
+   "player_id": 2544,
+   "first_name": "LeBron",
+   "last_name": "James",
+   "full_name": "LeBron James",
+   "team_id": 1610612747
+ },
+ {
+   "player_id": 2546,
+   "first_name": "Carmelo",
+   "last_name": "Anthony",
+   "full_name": "Carmelo Anthony",
+   "team_id": 1610612757
+ },
+ {
+   "player_id": 2617,
+   "first_name": "Udonis",
+   "last_name": "Haslem",
+   "full_name": "Udonis Haslem",
+   "team_id": 1610612748
+ },
+ {
+   "player_id": 2730,
+   "first_name": "Dwight",
+   "last_name": "Howard",
+   "full_name": "Dwight Howard",
+   "team_id": 1610612755
+ },
+ {
+   "player_id": 2738,
+   "first_name": "Andre",
+   "last_name": "Iguodala",
+   "full_name": "Andre Iguodala",
+   "team_id": 1610612748
+ },
+ {
+   "player_id": 2772,
+   "first_name": "Trevor",
+   "last_name": "Ariza",
+   "full_name": "Trevor Ariza",
+   "team_id": 1610612748
+ },
+ {
+   "player_id": 101108,
+   "first_name": "Chris",
+   "last_name": "Paul",
+   "full_name": "Chris Paul",
+   "team_id": 1610612756
+ },
+ {
+   "player_id": 101141,
+   "first_name": "Ersan",
+   "last_name": "Ilyasova",
+   "full_name": "Ersan Ilyasova",
+   "team_id": 1610612762
+ },
+ {
+   "player_id": 101150,
+   "first_name": "Lou",
+   "last_name": "Williams",
+   "full_name": "Lou Williams",
+   "team_id": 1610612737
+ },
+ {
+   "player_id": 200755,
+   "first_name": "JJ",
+   "last_name": "Redick",
+   "full_name": "JJ Redick",
+   "team_id": 1610612742
+ },
+ {
+   "player_id": 200765,
+   "first_name": "Rajon",
+   "last_name": "Rondo",
+   "full_name": "Rajon Rondo",
+   "team_id": 1610612746
+ },
+ {
+   "player_id": 200782,
+   "first_name": "P.J.",
+   "last_name": "Tucker",
+   "full_name": "P.J. Tucker",
+   "team_id": 1610612749
+ },
+ {
+   "player_id": 200794,
+   "first_name": "Paul",
+   "last_name": "Millsap",
+   "full_name": "Paul Millsap",
+   "team_id": 1610612743
+ },
+ {
+   "player_id": 201142,
+   "first_name": "Kevin",
+   "last_name": "Durant",
+   "full_name": "Kevin Durant",
+   "team_id": 1610612751
+ },
+ {
+   "player_id": 201144,
+   "first_name": "Mike",
+   "last_name": "Conley",
+   "full_name": "Mike Conley",
+   "team_id": 1610612762
+ },
+ {
+   "player_id": 201145,
+   "first_name": "Jeff",
+   "last_name": "Green",
+   "full_name": "Jeff Green",
+   "team_id": 1610612751
+ },
+ {
+   "player_id": 201162,
+   "first_name": "Jared",
+   "last_name": "Dudley",
+   "full_name": "Jared Dudley",
+   "team_id": 1610612747
+ },
+ {
+   "player_id": 201188,
+   "first_name": "Marc",
+   "last_name": "Gasol",
+   "full_name": "Marc Gasol",
+   "team_id": 1610612747
+ },
+ {
+   "player_id": 201229,
+   "first_name": "Anthony",
+   "last_name": "Tolliver",
+   "full_name": "Anthony Tolliver",
+   "team_id": 1610612755
+ },
+ {
+   "player_id": 201565,
+   "first_name": "Derrick",
+   "last_name": "Rose",
+   "full_name": "Derrick Rose",
+   "team_id": 1610612752
+ },
+ {
+   "player_id": 201566,
+   "first_name": "Russell",
+   "last_name": "Westbrook",
+   "full_name": "Russell Westbrook",
+   "team_id": 1610612764
+ },
+ {
+   "player_id": 201568,
+   "first_name": "Danilo",
+   "last_name": "Gallinari",
+   "full_name": "Danilo Gallinari",
+   "team_id": 1610612737
+ },
+ {
+   "player_id": 201572,
+   "first_name": "Brook",
+   "last_name": "Lopez",
+   "full_name": "Brook Lopez",
+   "team_id": 1610612749
+ },
+ {
+   "player_id": 201577,
+   "first_name": "Robin",
+   "last_name": "Lopez",
+   "full_name": "Robin Lopez",
+   "team_id": 1610612764
+ },
+ {
+   "player_id": 201580,
+   "first_name": "JaVale",
+   "last_name": "McGee",
+   "full_name": "JaVale McGee",
+   "team_id": 1610612743
+ },
+ {
+   "player_id": 201586,
+   "first_name": "Serge",
+   "last_name": "Ibaka",
+   "full_name": "Serge Ibaka",
+   "team_id": 1610612746
+ },
+ {
+   "player_id": 201587,
+   "first_name": "Nicolas",
+   "last_name": "Batum",
+   "full_name": "Nicolas Batum",
+   "team_id": 1610612746
+ },
+ {
+   "player_id": 201588,
+   "first_name": "George",
+   "last_name": "Hill",
+   "full_name": "George Hill",
+   "team_id": 1610612755
+ },
+ {
+   "player_id": 201599,
+   "first_name": "DeAndre",
+   "last_name": "Jordan",
+   "full_name": "DeAndre Jordan",
+   "team_id": 1610612751
+ },
+ {
+   "player_id": 201609,
+   "first_name": "Goran",
+   "last_name": "Dragic",
+   "full_name": "Goran Dragic",
+   "team_id": 1610612748
+ },
+ {
+   "player_id": 201933,
+   "first_name": "Blake",
+   "last_name": "Griffin",
+   "full_name": "Blake Griffin",
+   "team_id": 1610612751
+ },
+ {
+   "player_id": 201935,
+   "first_name": "James",
+   "last_name": "Harden",
+   "full_name": "James Harden",
+   "team_id": 1610612751
+ },
+ {
+   "player_id": 201950,
+   "first_name": "Jrue",
+   "last_name": "Holiday",
+   "full_name": "Jrue Holiday",
+   "team_id": 1610612749
+ },
+ {
+   "player_id": 201952,
+   "first_name": "Jeff",
+   "last_name": "Teague",
+   "full_name": "Jeff Teague",
+   "team_id": 1610612749
+ },
+ {
+   "player_id": 201959,
+   "first_name": "Taj",
+   "last_name": "Gibson",
+   "full_name": "Taj Gibson",
+   "team_id": 1610612752
+ },
+ {
+   "player_id": 201976,
+   "first_name": "Patrick",
+   "last_name": "Beverley",
+   "full_name": "Patrick Beverley",
+   "team_id": 1610612746
+ },
+ {
+   "player_id": 201980,
+   "first_name": "Danny",
+   "last_name": "Green",
+   "full_name": "Danny Green",
+   "team_id": 1610612755
+ },
+ {
+   "player_id": 202083,
+   "first_name": "Wesley",
+   "last_name": "Matthews",
+   "full_name": "Wesley Matthews",
+   "team_id": 1610612747
+ },
+ {
+   "player_id": 202324,
+   "first_name": "Derrick",
+   "last_name": "Favors",
+   "full_name": "Derrick Favors",
+   "team_id": 1610612762
+ },
+ {
+   "player_id": 202326,
+   "first_name": "DeMarcus",
+   "last_name": "Cousins",
+   "full_name": "DeMarcus Cousins",
+   "team_id": 1610612746
+ },
+ {
+   "player_id": 202331,
+   "first_name": "Paul",
+   "last_name": "George",
+   "full_name": "Paul George",
+   "team_id": 1610612746
+ },
+ {
+   "player_id": 202335,
+   "first_name": "Patrick",
+   "last_name": "Patterson",
+   "full_name": "Patrick Patterson",
+   "team_id": 1610612746
+ },
+ {
+   "player_id": 202357,
+   "first_name": "Nemanja",
+   "last_name": "Bjelica",
+   "full_name": "Nemanja Bjelica",
+   "team_id": 1610612748
+ },
+ {
+   "player_id": 202397,
+   "first_name": "Ish",
+   "last_name": "Smith",
+   "full_name": "Ish Smith",
+   "team_id": 1610612764
+ },
+ {
+   "player_id": 202681,
+   "first_name": "Kyrie",
+   "last_name": "Irving",
+   "full_name": "Kyrie Irving",
+   "team_id": 1610612751
+ },
+ {
+   "player_id": 202683,
+   "first_name": "Enes",
+   "last_name": "Freedom",
+   "full_name": "Enes Freedom",
+   "team_id": 1610612757
+ },
+ {
+   "player_id": 202684,
+   "first_name": "Tristan",
+   "last_name": "Thompson",
+   "full_name": "Tristan Thompson",
+   "team_id": 1610612738
+ },
+ {
+   "player_id": 202685,
+   "first_name": "Jonas",
+   "last_name": "Valanciunas",
+   "full_name": "Jonas Valanciunas",
+   "team_id": 1610612763
+ },
+ {
+   "player_id": 202689,
+   "first_name": "Kemba",
+   "last_name": "Walker",
+   "full_name": "Kemba Walker",
+   "team_id": 1610612738
+ },
+ {
+   "player_id": 202692,
+   "first_name": "Alec",
+   "last_name": "Burks",
+   "full_name": "Alec Burks",
+   "team_id": 1610612752
+ },
+ {
+   "player_id": 202693,
+   "first_name": "Markieff",
+   "last_name": "Morris",
+   "full_name": "Markieff Morris",
+   "team_id": 1610612747
+ },
+ {
+   "player_id": 202694,
+   "first_name": "Marcus",
+   "last_name": "Morris Sr.",
+   "full_name": "Marcus Morris Sr.",
+   "team_id": 1610612746
+ },
+ {
+   "player_id": 202695,
+   "first_name": "Kawhi",
+   "last_name": "Leonard",
+   "full_name": "Kawhi Leonard",
+   "team_id": 1610612746
+ },
+ {
+   "player_id": 202699,
+   "first_name": "Tobias",
+   "last_name": "Harris",
+   "full_name": "Tobias Harris",
+   "team_id": 1610612755
+ },
+ {
+   "player_id": 202704,
+   "first_name": "Reggie",
+   "last_name": "Jackson",
+   "full_name": "Reggie Jackson",
+   "team_id": 1610612746
+ },
+ {
+   "player_id": 202710,
+   "first_name": "Jimmy",
+   "last_name": "Butler",
+   "full_name": "Jimmy Butler",
+   "team_id": 1610612748
+ },
+ {
+   "player_id": 202711,
+   "first_name": "Bojan",
+   "last_name": "Bogdanovic",
+   "full_name": "Bojan Bogdanovic",
+   "team_id": 1610612762
+ },
+ {
+   "player_id": 202722,
+   "first_name": "Davis",
+   "last_name": "Bertans",
+   "full_name": "Davis Bertans",
+   "team_id": 1610612764
+ },
+ {
+   "player_id": 202734,
+   "first_name": "E'Twaun",
+   "last_name": "Moore",
+   "full_name": "E'Twaun Moore",
+   "team_id": 1610612756
+ },
+ {
+   "player_id": 203076,
+   "first_name": "Anthony",
+   "last_name": "Davis",
+   "full_name": "Anthony Davis",
+   "team_id": 1610612747
+ },
+ {
+   "player_id": 203078,
+   "first_name": "Bradley",
+   "last_name": "Beal",
+   "full_name": "Bradley Beal",
+   "team_id": 1610612764
+ },
+ {
+   "player_id": 203081,
+   "first_name": "Damian",
+   "last_name": "Lillard",
+   "full_name": "Damian Lillard",
+   "team_id": 1610612757
+ },
+ {
+   "player_id": 203083,
+   "first_name": "Andre",
+   "last_name": "Drummond",
+   "full_name": "Andre Drummond",
+   "team_id": 1610612747
+ },
+ {
+   "player_id": 203085,
+   "first_name": "Austin",
+   "last_name": "Rivers",
+   "full_name": "Austin Rivers",
+   "team_id": 1610612743
+ },
+ {
+   "player_id": 203095,
+   "first_name": "Evan",
+   "last_name": "Fournier",
+   "full_name": "Evan Fournier",
+   "team_id": 1610612738
+ },
+ {
+   "player_id": 203109,
+   "first_name": "Jae",
+   "last_name": "Crowder",
+   "full_name": "Jae Crowder",
+   "team_id": 1610612756
+ },
+ {
+   "player_id": 203114,
+   "first_name": "Khris",
+   "last_name": "Middleton",
+   "full_name": "Khris Middleton",
+   "team_id": 1610612749
+ },
+ {
+   "player_id": 203115,
+   "first_name": "Will",
+   "last_name": "Barton",
+   "full_name": "Will Barton",
+   "team_id": 1610612743
+ },
+ {
+   "player_id": 203118,
+   "first_name": "Mike",
+   "last_name": "Scott",
+   "full_name": "Mike Scott",
+   "team_id": 1610612755
+ },
+ {
+   "player_id": 203210,
+   "first_name": "JaMychal",
+   "last_name": "Green",
+   "full_name": "JaMychal Green",
+   "team_id": 1610612743
+ },
+ {
+   "player_id": 203457,
+   "first_name": "Nerlens",
+   "last_name": "Noel",
+   "full_name": "Nerlens Noel",
+   "team_id": 1610612752
+ },
+ {
+   "player_id": 203458,
+   "first_name": "Alex",
+   "last_name": "Len",
+   "full_name": "Alex Len",
+   "team_id": 1610612764
+ },
+ {
+   "player_id": 203463,
+   "first_name": "Ben",
+   "last_name": "McLemore",
+   "full_name": "Ben McLemore",
+   "team_id": 1610612747
+ },
+ {
+   "player_id": 203468,
+   "first_name": "CJ",
+   "last_name": "McCollum",
+   "full_name": "CJ McCollum",
+   "team_id": 1610612757
+ },
+ {
+   "player_id": 203471,
+   "first_name": "Dennis",
+   "last_name": "Schroder",
+   "full_name": "Dennis Schroder",
+   "team_id": 1610612747
+ },
+ {
+   "player_id": 203473,
+   "first_name": "Dewayne",
+   "last_name": "Dedmon",
+   "full_name": "Dewayne Dedmon",
+   "team_id": 1610612748
+ },
+ {
+   "player_id": 203484,
+   "first_name": "Kentavious",
+   "last_name": "Caldwell-Pope",
+   "full_name": "Kentavious Caldwell-Pope",
+   "team_id": 1610612747
+ },
+ {
+   "player_id": 203493,
+   "first_name": "Reggie",
+   "last_name": "Bullock",
+   "full_name": "Reggie Bullock",
+   "team_id": 1610612752
+ },
+ {
+   "player_id": 203496,
+   "first_name": "Robert",
+   "last_name": "Covington",
+   "full_name": "Robert Covington",
+   "team_id": 1610612757
+ },
+ {
+   "player_id": 203497,
+   "first_name": "Rudy",
+   "last_name": "Gobert",
+   "full_name": "Rudy Gobert",
+   "team_id": 1610612762
+ },
+ {
+   "player_id": 203501,
+   "first_name": "Tim",
+   "last_name": "Hardaway Jr.",
+   "full_name": "Tim Hardaway Jr.",
+   "team_id": 1610612742
+ },
+ {
+   "player_id": 203503,
+   "first_name": "Tony",
+   "last_name": "Snell",
+   "full_name": "Tony Snell",
+   "team_id": 1610612737
+ },
+ {
+   "player_id": 203504,
+   "first_name": "Trey",
+   "last_name": "Burke",
+   "full_name": "Trey Burke",
+   "team_id": 1610612742
+ },
+ {
+   "player_id": 203506,
+   "first_name": "Victor",
+   "last_name": "Oladipo",
+   "full_name": "Victor Oladipo",
+   "team_id": 1610612748
+ },
+ {
+   "player_id": 203507,
+   "first_name": "Giannis",
+   "last_name": "Antetokounmpo",
+   "full_name": "Giannis Antetokounmpo",
+   "team_id": 1610612749
+ },
+ {
+   "player_id": 203524,
+   "first_name": "Solomon",
+   "last_name": "Hill",
+   "full_name": "Solomon Hill",
+   "team_id": 1610612737
+ },
+ {
+   "player_id": 203526,
+   "first_name": "Raul",
+   "last_name": "Neto",
+   "full_name": "Raul Neto",
+   "team_id": 1610612764
+ },
+ {
+   "player_id": 203552,
+   "first_name": "Seth",
+   "last_name": "Curry",
+   "full_name": "Seth Curry",
+   "team_id": 1610612755
+ },
+ {
+   "player_id": 203648,
+   "first_name": "Thanasis",
+   "last_name": "Antetokounmpo",
+   "full_name": "Thanasis Antetokounmpo",
+   "team_id": 1610612749
+ },
+ {
+   "player_id": 203658,
+   "first_name": "Norvel",
+   "last_name": "Pelle",
+   "full_name": "Norvel Pelle",
+   "team_id": 1610612752
+ },
+ {
+   "player_id": 203901,
+   "first_name": "Elfrid",
+   "last_name": "Payton",
+   "full_name": "Elfrid Payton",
+   "team_id": 1610612752
+ },
+ {
+   "player_id": 203903,
+   "first_name": "Jordan",
+   "last_name": "Clarkson",
+   "full_name": "Jordan Clarkson",
+   "team_id": 1610612762
+ },
+ {
+   "player_id": 203915,
+   "first_name": "Spencer",
+   "last_name": "Dinwiddie",
+   "full_name": "Spencer Dinwiddie",
+   "team_id": 1610612751
+ },
+ {
+   "player_id": 203925,
+   "first_name": "Joe",
+   "last_name": "Harris",
+   "full_name": "Joe Harris",
+   "team_id": 1610612751
+ },
+ {
+   "player_id": 203932,
+   "first_name": "Aaron",
+   "last_name": "Gordon",
+   "full_name": "Aaron Gordon",
+   "team_id": 1610612743
+ },
+ {
+   "player_id": 203935,
+   "first_name": "Marcus",
+   "last_name": "Smart",
+   "full_name": "Marcus Smart",
+   "team_id": 1610612738
+ },
+ {
+   "player_id": 203937,
+   "first_name": "Kyle",
+   "last_name": "Anderson",
+   "full_name": "Kyle Anderson",
+   "team_id": 1610612763
+ },
+ {
+   "player_id": 203939,
+   "first_name": "Dwight",
+   "last_name": "Powell",
+   "full_name": "Dwight Powell",
+   "team_id": 1610612742
+ },
+ {
+   "player_id": 203944,
+   "first_name": "Julius",
+   "last_name": "Randle",
+   "full_name": "Julius Randle",
+   "team_id": 1610612752
+ },
+ {
+   "player_id": 203953,
+   "first_name": "Jabari",
+   "last_name": "Parker",
+   "full_name": "Jabari Parker",
+   "team_id": 1610612738
+ },
+ {
+   "player_id": 203954,
+   "first_name": "Joel",
+   "last_name": "Embiid",
+   "full_name": "Joel Embiid",
+   "team_id": 1610612755
+ },
+ {
+   "player_id": 203967,
+   "first_name": "Dario",
+   "last_name": "Saric",
+   "full_name": "Dario Saric",
+   "team_id": 1610612756
+ },
+ {
+   "player_id": 203991,
+   "first_name": "Clint",
+   "last_name": "Capela",
+   "full_name": "Clint Capela",
+   "team_id": 1610612737
+ },
+ {
+   "player_id": 203992,
+   "first_name": "Bogdan",
+   "last_name": "Bogdanovic",
+   "full_name": "Bogdan Bogdanovic",
+   "team_id": 1610612737
+ },
+ {
+   "player_id": 203994,
+   "first_name": "Jusuf",
+   "last_name": "Nurkic",
+   "full_name": "Jusuf Nurkic",
+   "team_id": 1610612757
+ },
+ {
+   "player_id": 203999,
+   "first_name": "Nikola",
+   "last_name": "Jokic",
+   "full_name": "Nikola Jokic",
+   "team_id": 1610612743
+ },
+ {
+   "player_id": 204001,
+   "first_name": "Kristaps",
+   "last_name": "Porzingis",
+   "full_name": "Kristaps Porzingis",
+   "team_id": 1610612742
+ },
+ {
+   "player_id": 204020,
+   "first_name": "Tyler",
+   "last_name": "Johnson",
+   "full_name": "Tyler Johnson",
+   "team_id": 1610612751
+ },
+ {
+   "player_id": 204025,
+   "first_name": "Tim",
+   "last_name": "Frazier",
+   "full_name": "Tim Frazier",
+   "team_id": 1610612763
+ },
+ {
+   "player_id": 204038,
+   "first_name": "Langston",
+   "last_name": "Galloway",
+   "full_name": "Langston Galloway",
+   "team_id": 1610612756
+ },
+ {
+   "player_id": 204060,
+   "first_name": "Joe",
+   "last_name": "Ingles",
+   "full_name": "Joe Ingles",
+   "team_id": 1610612762
+ },
+ {
+   "player_id": 1626145,
+   "first_name": "Tyus",
+   "last_name": "Jones",
+   "full_name": "Tyus Jones",
+   "team_id": 1610612763
+ },
+ {
+   "player_id": 1626149,
+   "first_name": "Montrezl",
+   "last_name": "Harrell",
+   "full_name": "Montrezl Harrell",
+   "team_id": 1610612747
+ },
+ {
+   "player_id": 1626159,
+   "first_name": "Justise",
+   "last_name": "Winslow",
+   "full_name": "Justise Winslow",
+   "team_id": 1610612763
+ },
+ {
+   "player_id": 1626161,
+   "first_name": "Willie",
+   "last_name": "Cauley-Stein",
+   "full_name": "Willie Cauley-Stein",
+   "team_id": 1610612742
+ },
+ {
+   "player_id": 1626163,
+   "first_name": "Frank",
+   "last_name": "Kaminsky",
+   "full_name": "Frank Kaminsky",
+   "team_id": 1610612756
+ },
+ {
+   "player_id": 1626164,
+   "first_name": "Devin",
+   "last_name": "Booker",
+   "full_name": "Devin Booker",
+   "team_id": 1610612756
+ },
+ {
+   "player_id": 1626166,
+   "first_name": "Cameron",
+   "last_name": "Payne",
+   "full_name": "Cameron Payne",
+   "team_id": 1610612756
+ },
+ {
+   "player_id": 1626171,
+   "first_name": "Bobby",
+   "last_name": "Portis",
+   "full_name": "Bobby Portis",
+   "team_id": 1610612749
+ },
+ {
+   "player_id": 1626178,
+   "first_name": "Rondae",
+   "last_name": "Hollis-Jefferson",
+   "full_name": "Rondae Hollis-Jefferson",
+   "team_id": 1610612757
+ },
+ {
+   "player_id": 1626181,
+   "first_name": "Norman",
+   "last_name": "Powell",
+   "full_name": "Norman Powell",
+   "team_id": 1610612757
+ },
+ {
+   "player_id": 1626192,
+   "first_name": "Pat",
+   "last_name": "Connaughton",
+   "full_name": "Pat Connaughton",
+   "team_id": 1610612749
+ },
+ {
+   "player_id": 1626196,
+   "first_name": "Josh",
+   "last_name": "Richardson",
+   "full_name": "Josh Richardson",
+   "team_id": 1610612742
+ },
+ {
+   "player_id": 1626220,
+   "first_name": "Royce",
+   "last_name": "O'Neale",
+   "full_name": "Royce O'Neale",
+   "team_id": 1610612762
+ },
+ {
+   "player_id": 1626246,
+   "first_name": "Boban",
+   "last_name": "Marjanovic",
+   "full_name": "Boban Marjanovic",
+   "team_id": 1610612742
+ },
+ {
+   "player_id": 1626253,
+   "first_name": "Axel",
+   "last_name": "Toupane",
+   "full_name": "Axel Toupane",
+   "team_id": 1610612749
+ },
+ {
+   "player_id": 1627732,
+   "first_name": "Ben",
+   "last_name": "Simmons",
+   "full_name": "Ben Simmons",
+   "team_id": 1610612755
+ },
+ {
+   "player_id": 1627739,
+   "first_name": "Kris",
+   "last_name": "Dunn",
+   "full_name": "Kris Dunn",
+   "team_id": 1610612737
+ },
+ {
+   "player_id": 1627750,
+   "first_name": "Jamal",
+   "last_name": "Murray",
+   "full_name": "Jamal Murray",
+   "team_id": 1610612743
+ },
+ {
+   "player_id": 1627759,
+   "first_name": "Jaylen",
+   "last_name": "Brown",
+   "full_name": "Jaylen Brown",
+   "team_id": 1610612738
+ },
+ {
+   "player_id": 1627777,
+   "first_name": "Georges",
+   "last_name": "Niang",
+   "full_name": "Georges Niang",
+   "team_id": 1610612762
+ },
+ {
+   "player_id": 1627788,
+   "first_name": "Furkan",
+   "last_name": "Korkmaz",
+   "full_name": "Furkan Korkmaz",
+   "team_id": 1610612755
+ },
+ {
+   "player_id": 1627789,
+   "first_name": "Timothe",
+   "last_name": "Luwawu-Cabarrot",
+   "full_name": "Timothe Luwawu-Cabarrot",
+   "team_id": 1610612751
+ },
+ {
+   "player_id": 1627812,
+   "first_name": "Yogi",
+   "last_name": "Ferrell",
+   "full_name": "Yogi Ferrell",
+   "team_id": 1610612746
+ },
+ {
+   "player_id": 1627826,
+   "first_name": "Ivica",
+   "last_name": "Zubac",
+   "full_name": "Ivica Zubac",
+   "team_id": 1610612746
+ },
+ {
+   "player_id": 1627827,
+   "first_name": "Dorian",
+   "last_name": "Finney-Smith",
+   "full_name": "Dorian Finney-Smith",
+   "team_id": 1610612742
+ },
+ {
+   "player_id": 1627846,
+   "first_name": "Abdel",
+   "last_name": "Nader",
+   "full_name": "Abdel Nader",
+   "team_id": 1610612756
+ },
+ {
+   "player_id": 1627854,
+   "first_name": "Bryn",
+   "last_name": "Forbes",
+   "full_name": "Bryn Forbes",
+   "team_id": 1610612749
+ },
+ {
+   "player_id": 1627884,
+   "first_name": "Derrick",
+   "last_name": "Jones Jr.",
+   "full_name": "Derrick Jones Jr.",
+   "team_id": 1610612757
+ },
+ {
+   "player_id": 1627885,
+   "first_name": "Shaquille",
+   "last_name": "Harrison",
+   "full_name": "Shaquille Harrison",
+   "team_id": 1610612743
+ },
+ {
+   "player_id": 1627936,
+   "first_name": "Alex",
+   "last_name": "Caruso",
+   "full_name": "Alex Caruso",
+   "team_id": 1610612747
+ },
+ {
+   "player_id": 1628035,
+   "first_name": "Alfonzo",
+   "last_name": "McKinnie",
+   "full_name": "Alfonzo McKinnie",
+   "team_id": 1610612747
+ },
+ {
+   "player_id": 1628369,
+   "first_name": "Jayson",
+   "last_name": "Tatum",
+   "full_name": "Jayson Tatum",
+   "team_id": 1610612738
+ },
+ {
+   "player_id": 1628373,
+   "first_name": "Frank",
+   "last_name": "Ntilikina",
+   "full_name": "Frank Ntilikina",
+   "team_id": 1610612752
+ },
+ {
+   "player_id": 1628378,
+   "first_name": "Donovan",
+   "last_name": "Mitchell",
+   "full_name": "Donovan Mitchell",
+   "team_id": 1610612762
+ },
+ {
+   "player_id": 1628379,
+   "first_name": "Luke",
+   "last_name": "Kennard",
+   "full_name": "Luke Kennard",
+   "team_id": 1610612746
+ },
+ {
+   "player_id": 1628380,
+   "first_name": "Zach",
+   "last_name": "Collins",
+   "full_name": "Zach Collins",
+   "team_id": 1610612757
+ },
+ {
+   "player_id": 1628381,
+   "first_name": "John",
+   "last_name": "Collins",
+   "full_name": "John Collins",
+   "team_id": 1610612737
+ },
+ {
+   "player_id": 1628382,
+   "first_name": "Justin",
+   "last_name": "Jackson",
+   "full_name": "Justin Jackson",
+   "team_id": 1610612749
+ },
+ {
+   "player_id": 1628385,
+   "first_name": "Harry",
+   "last_name": "Giles III",
+   "full_name": "Harry Giles III",
+   "team_id": 1610612757
+ },
+ {
+   "player_id": 1628388,
+   "first_name": "T.J.",
+   "last_name": "Leaf",
+   "full_name": "T.J. Leaf",
+   "team_id": 1610612757
+ },
+ {
+   "player_id": 1628389,
+   "first_name": "Bam",
+   "last_name": "Adebayo",
+   "full_name": "Bam Adebayo",
+   "team_id": 1610612748
+ },
+ {
+   "player_id": 1628398,
+   "first_name": "Kyle",
+   "last_name": "Kuzma",
+   "full_name": "Kyle Kuzma",
+   "team_id": 1610612747
+ },
+ {
+   "player_id": 1628400,
+   "first_name": "Semi",
+   "last_name": "Ojeleye",
+   "full_name": "Semi Ojeleye",
+   "team_id": 1610612738
+ },
+ {
+   "player_id": 1628408,
+   "first_name": "P.J.",
+   "last_name": "Dozier",
+   "full_name": "P.J. Dozier",
+   "team_id": 1610612743
+ },
+ {
+   "player_id": 1628415,
+   "first_name": "Dillon",
+   "last_name": "Brooks",
+   "full_name": "Dillon Brooks",
+   "team_id": 1610612763
+ },
+ {
+   "player_id": 1628418,
+   "first_name": "Thomas",
+   "last_name": "Bryant",
+   "full_name": "Thomas Bryant",
+   "team_id": 1610612764
+ },
+ {
+   "player_id": 1628420,
+   "first_name": "Monte",
+   "last_name": "Morris",
+   "full_name": "Monte Morris",
+   "team_id": 1610612743
+ },
+ {
+   "player_id": 1628427,
+   "first_name": "Vlatko",
+   "last_name": "Cancar",
+   "full_name": "Vlatko Cancar",
+   "team_id": 1610612743
+ },
+ {
+   "player_id": 1628436,
+   "first_name": "Luke",
+   "last_name": "Kornet",
+   "full_name": "Luke Kornet",
+   "team_id": 1610612738
+ },
+ {
+   "player_id": 1628455,
+   "first_name": "Mike",
+   "last_name": "James",
+   "full_name": "Mike James",
+   "team_id": 1610612751
+ },
+ {
+   "player_id": 1628467,
+   "first_name": "Maxi",
+   "last_name": "Kleber",
+   "full_name": "Maxi Kleber",
+   "team_id": 1610612742
+ },
+ {
+   "player_id": 1628470,
+   "first_name": "Torrey",
+   "last_name": "Craig",
+   "full_name": "Torrey Craig",
+   "team_id": 1610612756
+ },
+ {
+   "player_id": 1628960,
+   "first_name": "Grayson",
+   "last_name": "Allen",
+   "full_name": "Grayson Allen",
+   "team_id": 1610612763
+ },
+ {
+   "player_id": 1628961,
+   "first_name": "Kostas",
+   "last_name": "Antetokounmpo",
+   "full_name": "Kostas Antetokounmpo",
+   "team_id": 1610612747
+ },
+ {
+   "player_id": 1628962,
+   "first_name": "Udoka",
+   "last_name": "Azubuike",
+   "full_name": "Udoka Azubuike",
+   "team_id": 1610612762
+ },
+ {
+   "player_id": 1628969,
+   "first_name": "Mikal",
+   "last_name": "Bridges",
+   "full_name": "Mikal Bridges",
+   "team_id": 1610612756
+ },
+ {
+   "player_id": 1628971,
+   "first_name": "Bruce",
+   "last_name": "Brown",
+   "full_name": "Bruce Brown",
+   "team_id": 1610612751
+ },
+ {
+   "player_id": 1628973,
+   "first_name": "Jalen",
+   "last_name": "Brunson",
+   "full_name": "Jalen Brunson",
+   "team_id": 1610612742
+ },
+ {
+   "player_id": 1628975,
+   "first_name": "Jevon",
+   "last_name": "Carter",
+   "full_name": "Jevon Carter",
+   "team_id": 1610612756
+ },
+ {
+   "player_id": 1628978,
+   "first_name": "Donte",
+   "last_name": "DiVincenzo",
+   "full_name": "Donte DiVincenzo",
+   "team_id": 1610612749
+ },
+ {
+   "player_id": 1628981,
+   "first_name": "Bruno",
+   "last_name": "Fernando",
+   "full_name": "Bruno Fernando",
+   "team_id": 1610612737
+ },
+ {
+   "player_id": 1628989,
+   "first_name": "Kevin",
+   "last_name": "Huerter",
+   "full_name": "Kevin Huerter",
+   "team_id": 1610612737
+ },
+ {
+   "player_id": 1628990,
+   "first_name": "Chandler",
+   "last_name": "Hutchison",
+   "full_name": "Chandler Hutchison",
+   "team_id": 1610612764
+ },
+ {
+   "player_id": 1628991,
+   "first_name": "Jaren",
+   "last_name": "Jackson Jr.",
+   "full_name": "Jaren Jackson Jr.",
+   "team_id": 1610612763
+ },
+ {
+   "player_id": 1628993,
+   "first_name": "Alize",
+   "last_name": "Johnson",
+   "full_name": "Alize Johnson",
+   "team_id": 1610612751
+ },
+ {
+   "player_id": 1628995,
+   "first_name": "Kevin",
+   "last_name": "Knox II",
+   "full_name": "Kevin Knox II",
+   "team_id": 1610612752
+ },
+ {
+   "player_id": 1629001,
+   "first_name": "De'Anthony",
+   "last_name": "Melton",
+   "full_name": "De'Anthony Melton",
+   "team_id": 1610612763
+ },
+ {
+   "player_id": 1629003,
+   "first_name": "Shake",
+   "last_name": "Milton",
+   "full_name": "Shake Milton",
+   "team_id": 1610612755
+ },
+ {
+   "player_id": 1629007,
+   "first_name": "Jontay",
+   "last_name": "Porter",
+   "full_name": "Jontay Porter",
+   "team_id": 1610612763
+ },
+ {
+   "player_id": 1629008,
+   "first_name": "Michael",
+   "last_name": "Porter Jr.",
+   "full_name": "Michael Porter Jr.",
+   "team_id": 1610612743
+ },
+ {
+   "player_id": 1629011,
+   "first_name": "Mitchell",
+   "last_name": "Robinson",
+   "full_name": "Mitchell Robinson",
+   "team_id": 1610612752
+ },
+ {
+   "player_id": 1629013,
+   "first_name": "Landry",
+   "last_name": "Shamet",
+   "full_name": "Landry Shamet",
+   "team_id": 1610612751
+ },
+ {
+   "player_id": 1629014,
+   "first_name": "Anfernee",
+   "last_name": "Simons",
+   "full_name": "Anfernee Simons",
+   "team_id": 1610612757
+ },
+ {
+   "player_id": 1629027,
+   "first_name": "Trae",
+   "last_name": "Young",
+   "full_name": "Trae Young",
+   "team_id": 1610612737
+ },
+ {
+   "player_id": 1629028,
+   "first_name": "Deandre",
+   "last_name": "Ayton",
+   "full_name": "Deandre Ayton",
+   "team_id": 1610612756
+ },
+ {
+   "player_id": 1629029,
+   "first_name": "Luka",
+   "last_name": "Doncic",
+   "full_name": "Luka Doncic",
+   "team_id": 1610612742
+ },
+ {
+   "player_id": 1629033,
+   "first_name": "Theo",
+   "last_name": "Pinson",
+   "full_name": "Theo Pinson",
+   "team_id": 1610612752
+ },
+ {
+   "player_id": 1629035,
+   "first_name": "Carsen",
+   "last_name": "Edwards",
+   "full_name": "Carsen Edwards",
+   "team_id": 1610612738
+ },
+ {
+   "player_id": 1629057,
+   "first_name": "Robert",
+   "last_name": "Williams III",
+   "full_name": "Robert Williams III",
+   "team_id": 1610612738
+ },
+ {
+   "player_id": 1629060,
+   "first_name": "Rui",
+   "last_name": "Hachimura",
+   "full_name": "Rui Hachimura",
+   "team_id": 1610612764
+ },
+ {
+   "player_id": 1629067,
+   "first_name": "Isaac",
+   "last_name": "Bonga",
+   "full_name": "Isaac Bonga",
+   "team_id": 1610612764
+ },
+ {
+   "player_id": 1629091,
+   "first_name": "Elijah",
+   "last_name": "Bryant",
+   "full_name": "Elijah Bryant",
+   "team_id": 1610612749
+ },
+ {
+   "player_id": 1629109,
+   "first_name": "Gary",
+   "last_name": "Clark",
+   "full_name": "Gary Clark",
+   "team_id": 1610612755
+ },
+ {
+   "player_id": 1629130,
+   "first_name": "Duncan",
+   "last_name": "Robinson",
+   "full_name": "Duncan Robinson",
+   "team_id": 1610612748
+ },
+ {
+   "player_id": 1629134,
+   "first_name": "Kendrick",
+   "last_name": "Nunn",
+   "full_name": "Kendrick Nunn",
+   "team_id": 1610612748
+ },
+ {
+   "player_id": 1629164,
+   "first_name": "Brandon",
+   "last_name": "Goodwin",
+   "full_name": "Brandon Goodwin",
+   "team_id": 1610612737
+ },
+ {
+   "player_id": 1629185,
+   "first_name": "Chris",
+   "last_name": "Chiozza",
+   "full_name": "Chris Chiozza",
+   "team_id": 1610612751
+ },
+ {
+   "player_id": 1629216,
+   "first_name": "Gabe",
+   "last_name": "Vincent",
+   "full_name": "Gabe Vincent",
+   "team_id": 1610612748
+ },
+ {
+   "player_id": 1629599,
+   "first_name": "Amir",
+   "last_name": "Coffey",
+   "full_name": "Amir Coffey",
+   "team_id": 1610612746
+ },
+ {
+   "player_id": 1629603,
+   "first_name": "Mamadi",
+   "last_name": "Diakite",
+   "full_name": "Mamadi Diakite",
+   "team_id": 1610612749
+ },
+ {
+   "player_id": 1629604,
+   "first_name": "CJ",
+   "last_name": "Elleby",
+   "full_name": "CJ Elleby",
+   "team_id": 1610612757
+ },
+ {
+   "player_id": 1629605,
+   "first_name": "Tacko",
+   "last_name": "Fall",
+   "full_name": "Tacko Fall",
+   "team_id": 1610612738
+ },
+ {
+   "player_id": 1629607,
+   "first_name": "Jared",
+   "last_name": "Harper",
+   "full_name": "Jared Harper",
+   "team_id": 1610612752
+ },
+ {
+   "player_id": 1629611,
+   "first_name": "Terance",
+   "last_name": "Mann",
+   "full_name": "Terance Mann",
+   "team_id": 1610612746
+ },
+ {
+   "player_id": 1629617,
+   "first_name": "Reggie",
+   "last_name": "Perry",
+   "full_name": "Reggie Perry",
+   "team_id": 1610612751
+ },
+ {
+   "player_id": 1629622,
+   "first_name": "Max",
+   "last_name": "Strus",
+   "full_name": "Max Strus",
+   "team_id": 1610612748
+ },
+ {
+   "player_id": 1629626,
+   "first_name": "Bol",
+   "last_name": "Bol",
+   "full_name": "Bol Bol",
+   "team_id": 1610612743
+ },
+ {
+   "player_id": 1629628,
+   "first_name": "RJ",
+   "last_name": "Barrett",
+   "full_name": "RJ Barrett",
+   "team_id": 1610612752
+ },
+ {
+   "player_id": 1629629,
+   "first_name": "Cam",
+   "last_name": "Reddish",
+   "full_name": "Cam Reddish",
+   "team_id": 1610612737
+ },
+ {
+   "player_id": 1629630,
+   "first_name": "Ja",
+   "last_name": "Morant",
+   "full_name": "Ja Morant",
+   "team_id": 1610612763
+ },
+ {
+   "player_id": 1629631,
+   "first_name": "De'Andre",
+   "last_name": "Hunter",
+   "full_name": "De'Andre Hunter",
+   "team_id": 1610612737
+ },
+ {
+   "player_id": 1629634,
+   "first_name": "Brandon",
+   "last_name": "Clarke",
+   "full_name": "Brandon Clarke",
+   "team_id": 1610612763
+ },
+ {
+   "player_id": 1629639,
+   "first_name": "Tyler",
+   "last_name": "Herro",
+   "full_name": "Tyler Herro",
+   "team_id": 1610612748
+ },
+ {
+   "player_id": 1629641,
+   "first_name": "Romeo",
+   "last_name": "Langford",
+   "full_name": "Romeo Langford",
+   "team_id": 1610612738
+ },
+ {
+   "player_id": 1629642,
+   "first_name": "Nassir",
+   "last_name": "Little",
+   "full_name": "Nassir Little",
+   "team_id": 1610612757
+ },
+ {
+   "player_id": 1629644,
+   "first_name": "KZ",
+   "last_name": "Okpala",
+   "full_name": "KZ Okpala",
+   "team_id": 1610612748
+ },
+ {
+   "player_id": 1629651,
+   "first_name": "Nic",
+   "last_name": "Claxton",
+   "full_name": "Nic Claxton",
+   "team_id": 1610612751
+ },
+ {
+   "player_id": 1629655,
+   "first_name": "Daniel",
+   "last_name": "Gafford",
+   "full_name": "Daniel Gafford",
+   "team_id": 1610612764
+ },
+ {
+   "player_id": 1629659,
+   "first_name": "Talen",
+   "last_name": "Horton-Tucker",
+   "full_name": "Talen Horton-Tucker",
+   "team_id": 1610612747
+ },
+ {
+   "player_id": 1629661,
+   "first_name": "Cameron",
+   "last_name": "Johnson",
+   "full_name": "Cameron Johnson",
+   "team_id": 1610612756
+ },
+ {
+   "player_id": 1629670,
+   "first_name": "Jordan",
+   "last_name": "Nwora",
+   "full_name": "Jordan Nwora",
+   "team_id": 1610612749
+ },
+ {
+   "player_id": 1629671,
+   "first_name": "Miye",
+   "last_name": "Oni",
+   "full_name": "Miye Oni",
+   "team_id": 1610612762
+ },
+ {
+   "player_id": 1629680,
+   "first_name": "Matisse",
+   "last_name": "Thybulle",
+   "full_name": "Matisse Thybulle",
+   "team_id": 1610612755
+ },
+ {
+   "player_id": 1629681,
+   "first_name": "Killian",
+   "last_name": "Tillie",
+   "full_name": "Killian Tillie",
+   "team_id": 1610612763
+ },
+ {
+   "player_id": 1629682,
+   "first_name": "Tremont",
+   "last_name": "Waters",
+   "full_name": "Tremont Waters",
+   "team_id": 1610612738
+ },
+ {
+   "player_id": 1629684,
+   "first_name": "Grant",
+   "last_name": "Williams",
+   "full_name": "Grant Williams",
+   "team_id": 1610612738
+ },
+ {
+   "player_id": 1629714,
+   "first_name": "Jarrell",
+   "last_name": "Brantley",
+   "full_name": "Jarrell Brantley",
+   "team_id": 1610612762
+ },
+ {
+   "player_id": 1629719,
+   "first_name": "Devontae",
+   "last_name": "Cacok",
+   "full_name": "Devontae Cacok",
+   "team_id": 1610612747
+ },
+ {
+   "player_id": 1629723,
+   "first_name": "John",
+   "last_name": "Konchar",
+   "full_name": "John Konchar",
+   "team_id": 1610612763
+ },
+ {
+   "player_id": 1629726,
+   "first_name": "Garrison",
+   "last_name": "Mathews",
+   "full_name": "Garrison Mathews",
+   "team_id": 1610612764
+ },
+ {
+   "player_id": 1629730,
+   "first_name": "Rayjon",
+   "last_name": "Tucker",
+   "full_name": "Rayjon Tucker",
+   "team_id": 1610612755
+ },
+ {
+   "player_id": 1629740,
+   "first_name": "Nicolo",
+   "last_name": "Melli",
+   "full_name": "Nicolo Melli",
+   "team_id": 1610612742
+ },
+ {
+   "player_id": 1629744,
+   "first_name": "Matt",
+   "last_name": "Thomas",
+   "full_name": "Matt Thomas",
+   "team_id": 1610612762
+ },
+ {
+   "player_id": 1629752,
+   "first_name": "Juwan",
+   "last_name": "Morgan",
+   "full_name": "Juwan Morgan",
+   "team_id": 1610612762
+ },
+ {
+   "player_id": 1629833,
+   "first_name": "Keljin",
+   "last_name": "Blevins",
+   "full_name": "Keljin Blevins",
+   "team_id": 1610612757
+ },
+ {
+   "player_id": 1630166,
+   "first_name": "Deni",
+   "last_name": "Avdija",
+   "full_name": "Deni Avdija",
+   "team_id": 1610612764
+ },
+ {
+   "player_id": 1630167,
+   "first_name": "Obi",
+   "last_name": "Toppin",
+   "full_name": "Obi Toppin",
+   "team_id": 1610612752
+ },
+ {
+   "player_id": 1630168,
+   "first_name": "Onyeka",
+   "last_name": "Okongwu",
+   "full_name": "Onyeka Okongwu",
+   "team_id": 1610612737
+ },
+ {
+   "player_id": 1630173,
+   "first_name": "Precious",
+   "last_name": "Achiuwa",
+   "full_name": "Precious Achiuwa",
+   "team_id": 1610612748
+ },
+ {
+   "player_id": 1630174,
+   "first_name": "Aaron",
+   "last_name": "Nesmith",
+   "full_name": "Aaron Nesmith",
+   "team_id": 1610612738
+ },
+ {
+   "player_id": 1630178,
+   "first_name": "Tyrese",
+   "last_name": "Maxey",
+   "full_name": "Tyrese Maxey",
+   "team_id": 1610612755
+ },
+ {
+   "player_id": 1630179,
+   "first_name": "Tyrell",
+   "last_name": "Terry",
+   "full_name": "Tyrell Terry",
+   "team_id": 1610612742
+ },
+ {
+   "player_id": 1630182,
+   "first_name": "Josh",
+   "last_name": "Green",
+   "full_name": "Josh Green",
+   "team_id": 1610612742
+ },
+ {
+   "player_id": 1630187,
+   "first_name": "Daniel",
+   "last_name": "Oturu",
+   "full_name": "Daniel Oturu",
+   "team_id": 1610612746
+ },
+ {
+   "player_id": 1630188,
+   "first_name": "Jalen",
+   "last_name": "Smith",
+   "full_name": "Jalen Smith",
+   "team_id": 1610612756
+ },
+ {
+   "player_id": 1630189,
+   "first_name": "Tyler",
+   "last_name": "Bey",
+   "full_name": "Tyler Bey",
+   "team_id": 1610612742
+ },
+ {
+   "player_id": 1630190,
+   "first_name": "Elijah",
+   "last_name": "Hughes",
+   "full_name": "Elijah Hughes",
+   "team_id": 1610612762
+ },
+ {
+   "player_id": 1630192,
+   "first_name": "Zeke",
+   "last_name": "Nnaji",
+   "full_name": "Zeke Nnaji",
+   "team_id": 1610612743
+ },
+ {
+   "player_id": 1630193,
+   "first_name": "Immanuel",
+   "last_name": "Quickley",
+   "full_name": "Immanuel Quickley",
+   "team_id": 1610612752
+ },
+ {
+   "player_id": 1630194,
+   "first_name": "Paul",
+   "last_name": "Reed",
+   "full_name": "Paul Reed",
+   "team_id": 1610612755
+ },
+ {
+   "player_id": 1630198,
+   "first_name": "Isaiah",
+   "last_name": "Joe",
+   "full_name": "Isaiah Joe",
+   "team_id": 1610612755
+ },
+ {
+   "player_id": 1630202,
+   "first_name": "Payton",
+   "last_name": "Pritchard",
+   "full_name": "Payton Pritchard",
+   "team_id": 1610612738
+ },
+ {
+   "player_id": 1630206,
+   "first_name": "Jay",
+   "last_name": "Scrubb",
+   "full_name": "Jay Scrubb",
+   "team_id": 1610612746
+ },
+ {
+   "player_id": 1630207,
+   "first_name": "Nate",
+   "last_name": "Hinton",
+   "full_name": "Nate Hinton",
+   "team_id": 1610612742
+ },
+ {
+   "player_id": 1630209,
+   "first_name": "Omer",
+   "last_name": "Yurtseven",
+   "full_name": "Omer Yurtseven",
+   "team_id": 1610612748
+ },
+ {
+   "player_id": 1630210,
+   "first_name": "Markus",
+   "last_name": "Howard",
+   "full_name": "Markus Howard",
+   "team_id": 1610612743
+ },
+ {
+   "player_id": 1630214,
+   "first_name": "Xavier",
+   "last_name": "Tillman",
+   "full_name": "Xavier Tillman",
+   "team_id": 1610612763
+ },
+ {
+   "player_id": 1630216,
+   "first_name": "Cassius",
+   "last_name": "Winston",
+   "full_name": "Cassius Winston",
+   "team_id": 1610612764
+ },
+ {
+   "player_id": 1630217,
+   "first_name": "Desmond",
+   "last_name": "Bane",
+   "full_name": "Desmond Bane",
+   "team_id": 1610612763
+ },
+ {
+   "player_id": 1630219,
+   "first_name": "Skylar",
+   "last_name": "Mays",
+   "full_name": "Skylar Mays",
+   "team_id": 1610612737
+ },
+ {
+   "player_id": 1630233,
+   "first_name": "Nathan",
+   "last_name": "Knight",
+   "full_name": "Nathan Knight",
+   "team_id": 1610612737
+ },
+ {
+   "player_id": 1630234,
+   "first_name": "Ty-Shon",
+   "last_name": "Alexander",
+   "full_name": "Ty-Shon Alexander",
+   "team_id": 1610612756
+ },
+ {
+   "player_id": 1630235,
+   "first_name": "Trent",
+   "last_name": "Forrest",
+   "full_name": "Trent Forrest",
+   "team_id": 1610612762
+ },
+ {
+   "player_id": 1630241,
+   "first_name": "Sam",
+   "last_name": "Merrill",
+   "full_name": "Sam Merrill",
+   "team_id": 1610612749
+ },
+ {
+   "player_id": 1630253,
+   "first_name": "Sean",
+   "last_name": "McDermott",
+   "full_name": "Sean McDermott",
+   "team_id": 1610612763
+ },
+ {
+   "player_id": 1630258,
+   "first_name": "Caleb",
+   "last_name": "Homesley",
+   "full_name": "Caleb Homesley",
+   "team_id": 1610612764
+ },
+ {
+   "player_id": 1630264,
+   "first_name": "Anthony",
+   "last_name": "Gill",
+   "full_name": "Anthony Gill",
+   "team_id": 1610612764
+ },
+ {
+   "player_id": 1630267,
+   "first_name": "Facundo",
+   "last_name": "Campazzo",
+   "full_name": "Facundo Campazzo",
+   "team_id": 1610612743
+ },
+ {
+   "player_id": 1630492,
+   "first_name": "Luca",
+   "last_name": "Vildoza",
+   "full_name": "Luca Vildoza",
+   "team_id": 1610612752
+ }
+]

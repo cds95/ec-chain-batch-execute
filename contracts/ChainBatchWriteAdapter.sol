@@ -1,4 +1,4 @@
-//SPDX-License-Identifier: MIT
+//SPDX-License-Identifier: Unlicensed
 pragma solidity =0.8.7;
 
 import "hardhat/console.sol";
@@ -36,7 +36,6 @@ contract ChainBatchWriteAdapter is Ownable {
     function canCall(address _addr) public view returns (bool) {
         // @TODO: implement this,
         // should hold registry implementers? GAS would be insane.. hmm
-
         return true;
     }
 

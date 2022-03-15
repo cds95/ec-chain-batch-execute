@@ -1,18 +1,19 @@
-//SPDX-License-Identifier: MIT
+//SPDX-License-Identifier: Unlicensed
 pragma solidity =0.8.7;
 
-import "hardhat/console.sol";
+import "./Implementers/TraitUint8ValueImplementer.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/structs/EnumerableSet.sol";
  
-contract ECRegistryV2 is Ownable {
+contract ECRegistryV3 is Ownable {
 
     struct traitStruct {
-        string  name;
-        address implementer;     // address of the smart contract that will implement extra functionality
-        uint8   traitType;       // 0 for normal, 1 for inverted, 2 for inverted range
+        uint16  id;
+        uint8   traitType;       // 0 for normal, 1 for inverted, 2 for inverted range, 3 uint8 values
         uint16  start;
         uint16  end;
+        address implementer;     // address of the smart contract that will implement extra functionality
+        string  name;
     }
 
     uint16 public traitCount;
@@ -47,27 +48,36 @@ contract ECRegistryV2 is Ownable {
     // tokens
     event tokenTraitChangeEvent(uint16 indexed _traitId, uint16 indexed _tokenId, bool mode);
 
+    function getTraits() public view returns (traitStruct[] memory)
+    {
+        traitStruct[] memory retval = new traitStruct[](traitCount);
+        for(uint16 i = 1; i <= traitCount; i++) {
+            retval[i-1] = traits[i];
+        }
+        return retval;
+    }
+
     function addTrait(
-        string[]    calldata _name,
-        address[]   calldata _implementer,
-        uint8[]     calldata _traitType,
-        uint16[]    calldata _start,
-        uint16[]    calldata _end
+        traitStruct[] calldata _newTraits
     ) public onlyAllowed {
 
-        for (uint8 i = 0; i < _name.length; i++) {
-            uint16 newTraitId = traitCount++;
-            traitStruct storage newT = traits[newTraitId];
-            newT.name = _name[i];
-            newT.implementer = _implementer[i];
-            newT.traitType = _traitType[i];
-            newT.start = _start[i];
-            newT.end = _end[i];
+        for (uint8 i = 0; i < _newTraits.length; i++) {
 
-            emit newTraitEvent(_name[i], _implementer[i], _traitType[i], _start[i], _end[i] );
-            if(_implementer[i] != address(0)) {
-                setTraitControllerAccess(_implementer[i], newTraitId, true);
+            uint16 newTraitId = ++traitCount;
+            traitStruct storage newT = traits[newTraitId];
+            newT.id =           _newTraits[i].id;
+            newT.name =         _newTraits[i].name;
+            newT.traitType =    _newTraits[i].traitType;
+            newT.start =        _newTraits[i].start;
+            newT.end =          _newTraits[i].end;
+
+            if(newT.traitType == 3) {
+                TraitUint8ValueImplementer implementer = new TraitUint8ValueImplementer(address(this), newTraitId);
+                newT.implementer = address(implementer);
             }
+
+            emit newTraitEvent(newT.name, newT.implementer, newT.traitType, newT.start, newT.end );
+            setTraitControllerAccess(address(newT.implementer), newTraitId, true);
             setTraitControllerAccess(owner(), newTraitId, true);
         }
     }
@@ -80,18 +90,11 @@ contract ECRegistryV2 is Ownable {
         uint16  _start,
         uint16  _end
     ) public onlyAllowed {
-        // set old to false
-        setTraitControllerAccess(traits[_traitId].implementer, _traitId, false);
-
         traits[_traitId].name = _name;
         traits[_traitId].implementer = _implementer;
         traits[_traitId].traitType = _traitType;
         traits[_traitId].start = _start;
         traits[_traitId].end = _end;
-
-        // set new to true
-        setTraitControllerAccess(_implementer, _traitId, true);
-
         emit updateTraitEvent(_traitId, _name, _implementer, _traitType, _start, _end);
     }
 
