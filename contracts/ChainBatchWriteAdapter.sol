@@ -9,6 +9,8 @@ import "./interfaces/IECRegistry.sol";
 
 contract ChainBatchWriteAdapter is Ownable {
 
+    uint32 public LastDataRecordId;
+
     error CallFailed(uint16 id);
 
     event RequestFulfilled(
@@ -39,9 +41,9 @@ contract ChainBatchWriteAdapter is Ownable {
         return true;
     }
 
-    // 0x010203040506070809
     // bytes - position - description
     // 2     - 0:1      - number of calls
+    // 4     - 2:6      - last data record id
     // ------ call 1 ------------------------------------
     // 2     - 2:3      - call data length
     // N     - 4:4+N    - arbitrary length call data
@@ -64,24 +66,24 @@ contract ChainBatchWriteAdapter is Ownable {
         emit RequestFulfilled(requestId, bytesData);
 
         uint16 numberOfCalls;
+        uint32 dataId;
         uint256 ptr;
   
-        assembly {
+       assembly {
 
             // set read pointer
             ptr := add( bytesData, 32 )
 
-             // get number of calls -> mul first byte by 256 and add the rest from byte 2
-            numberOfCalls := add(
-                mul( byte( 0, mload( add( ptr, 0 ) ) ), 256),
-                byte( 0, mload( add( ptr, 1 ) ) )
-            )
+            numberOfCalls := shr( 240, mload( ptr ) )
+            // shift pointer to data Id
+            ptr := add( ptr, 2 )
+
+            dataId := shr( 224, mload( ptr ) )
+            // shift pointer to call start
+            ptr := add( ptr, 4 )
 
             // move free memory pointer
             mstore(0x40, msize()) 
-
-            // shift pointer to call start
-            ptr := add( ptr, 2 )
         }
 
         bool[] memory results = new bool[](numberOfCalls);
@@ -131,6 +133,8 @@ contract ChainBatchWriteAdapter is Ownable {
             }
             results[i] = success;
         }
+
+        LastDataRecordId = dataId;
 
         return results;
 

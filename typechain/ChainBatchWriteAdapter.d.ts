@@ -21,6 +21,7 @@ import { TypedEventFilter, TypedEvent, TypedListener } from "./commons";
 
 interface ChainBatchWriteAdapterInterface extends ethers.utils.Interface {
   functions: {
+    "LastDataRecordId()": FunctionFragment;
     "canCall(address)": FunctionFragment;
     "fulfillBytes(bytes32,bytes)": FunctionFragment;
     "owner()": FunctionFragment;
@@ -29,6 +30,10 @@ interface ChainBatchWriteAdapterInterface extends ethers.utils.Interface {
     "transferOwnership(address)": FunctionFragment;
   };
 
+  encodeFunctionData(
+    functionFragment: "LastDataRecordId",
+    values?: undefined
+  ): string;
   encodeFunctionData(functionFragment: "canCall", values: [string]): string;
   encodeFunctionData(
     functionFragment: "fulfillBytes",
@@ -48,6 +53,10 @@ interface ChainBatchWriteAdapterInterface extends ethers.utils.Interface {
     values: [string]
   ): string;
 
+  decodeFunctionResult(
+    functionFragment: "LastDataRecordId",
+    data: BytesLike
+  ): Result;
   decodeFunctionResult(functionFragment: "canCall", data: BytesLike): Result;
   decodeFunctionResult(
     functionFragment: "fulfillBytes",
@@ -120,6 +129,8 @@ export class ChainBatchWriteAdapter extends BaseContract {
   interface: ChainBatchWriteAdapterInterface;
 
   functions: {
+    LastDataRecordId(overrides?: CallOverrides): Promise<[number]>;
+
     canCall(_addr: string, overrides?: CallOverrides): Promise<[boolean]>;
 
     fulfillBytes(
@@ -143,6 +154,8 @@ export class ChainBatchWriteAdapter extends BaseContract {
       overrides?: Overrides & { from?: string | Promise<string> }
     ): Promise<ContractTransaction>;
   };
+
+  LastDataRecordId(overrides?: CallOverrides): Promise<number>;
 
   canCall(_addr: string, overrides?: CallOverrides): Promise<boolean>;
 
@@ -168,6 +181,8 @@ export class ChainBatchWriteAdapter extends BaseContract {
   ): Promise<ContractTransaction>;
 
   callStatic: {
+    LastDataRecordId(overrides?: CallOverrides): Promise<number>;
+
     canCall(_addr: string, overrides?: CallOverrides): Promise<boolean>;
 
     fulfillBytes(
@@ -204,6 +219,8 @@ export class ChainBatchWriteAdapter extends BaseContract {
   };
 
   estimateGas: {
+    LastDataRecordId(overrides?: CallOverrides): Promise<BigNumber>;
+
     canCall(_addr: string, overrides?: CallOverrides): Promise<BigNumber>;
 
     fulfillBytes(
@@ -229,6 +246,8 @@ export class ChainBatchWriteAdapter extends BaseContract {
   };
 
   populateTransaction: {
+    LastDataRecordId(overrides?: CallOverrides): Promise<PopulatedTransaction>;
+
     canCall(
       _addr: string,
       overrides?: CallOverrides
