@@ -1,0 +1,36 @@
+Mickys-Mac-Pro:ec-chain-batch-execute micky$ npx hardhat run scripts/data2c/1.mapper.ts --network polygonMumbai
+No need to generate any newer typings.
+    Deployer                    0xd25F03bdC4727B43bf09Ace9CF25C5DEA21D1532
+    Part 1 - Player and Team Mappings
+    Deployment hash:            0x09f23e610a518030b63f0aa8ce1c8ea4c81833f1552685f66df52a4df5477338
+    Deployment address:         0x7cdF091AF6a9ED75E3192500d3e5BB0f63e22Dea
+
+    Validate:
+      npx hardhat verify --network polygonMumbai --contract contracts/ECRegistryMap.sol:ECRegistryMap 0x7cdF091AF6a9ED75E3192500d3e5BB0f63e22Dea
+    Add Mapping Data
+      Teams
+      Players - txns 3
+      - chunks[i] 0 100
+      - chunks[i] 1 100
+      - chunks[i] 2 70
+    Part 1 Done
+
+    Part 2 - Trait Registry
+    Deployment hash:            0x4df1909cd6725e3665ec1da9d31dfb1b245a942e6a4cec51cdd47e356677eb50
+    Deployment address:         0xf882B1A26Fc5C42005A055f7545150959dED27a8
+
+    Validate:
+      npx hardhat verify --network polygonMumbai --contract contracts/ECRegistryV3.sol:ECRegistryV3 0xf882B1A26Fc5C42005A055f7545150959dED27a8
+    Add Traits
+    Part 2 Done
+    Part 3 - ChainBatchWriteAdapter
+    Deployment hash:            0xb5be04bc1bb42d18487793cbe4d9e25df98355a88358573b3ae201090c44cf02
+    Deployment address:         0xCF01E438E6bC82653a65273f215Ae5e5D19B1B33
+
+    Validate:
+      npx hardhat verify --network polygonMumbai --contract contracts/ChainBatchWriteAdapter.sol:ChainBatchWriteAdapter 0xCF01E438E6bC82653a65273f215Ae5e5D19B1B33
+    Give ChainBatchWriteAdapter write permissions to ECRegistry
+    Part 3 Done
+    Validate Writer access.
+    Done.
+Mickys-Mac-Pro:ec-chain-batch-execute micky$

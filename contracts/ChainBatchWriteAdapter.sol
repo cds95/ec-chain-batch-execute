@@ -94,10 +94,7 @@ contract ChainBatchWriteAdapter is Ownable {
             assembly {
 
                 // ( 2 bytes ) load calldata length 
-                dataLength := add(
-                    mul( byte( 0, mload( add( ptr, 0 ) ) ), 256),
-                    byte( 0, mload( add( ptr, 1 ) ) )
-                )
+                dataLength := shr( 240, mload( ptr ) )
                 ptr := add( ptr, 2 )
 
                 // ( 32 bytes ) load our address into a stack variable that our call can use
